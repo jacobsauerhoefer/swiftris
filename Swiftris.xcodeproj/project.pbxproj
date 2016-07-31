@@ -22,6 +22,7 @@
 		B2227E2D1D4D8061005CF9B4 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2227E2C1D4D8061005CF9B4 /* Array2D.swift */; };
 		B2227E2F1D4D8631005CF9B4 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2227E2E1D4D8631005CF9B4 /* Block.swift */; };
 		B2227E311D4D8C57005CF9B4 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2227E301D4D8C57005CF9B4 /* Shape.swift */; };
+		B2227E331D4E460B005CF9B4 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2227E321D4E460B005CF9B4 /* SquareShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		B2227E2C1D4D8061005CF9B4 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		B2227E2E1D4D8631005CF9B4 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		B2227E301D4D8C57005CF9B4 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		B2227E321D4E460B005CF9B4 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				B2227E2C1D4D8061005CF9B4 /* Array2D.swift */,
 				B2227E2E1D4D8631005CF9B4 /* Block.swift */,
 				B2227E301D4D8C57005CF9B4 /* Shape.swift */,
+				B2227E321D4E460B005CF9B4 /* SquareShape.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2227E331D4E460B005CF9B4 /* SquareShape.swift in Sources */,
 				B2227E0E1D4D779F005CF9B4 /* GameScene.swift in Sources */,
 				B2227E311D4D8C57005CF9B4 /* Shape.swift in Sources */,
 				B2227E2D1D4D8061005CF9B4 /* Array2D.swift in Sources */,
