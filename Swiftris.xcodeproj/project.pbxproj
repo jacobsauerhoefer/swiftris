@@ -13,6 +13,12 @@
 		B2227E131D4D779F005CF9B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2227E111D4D779F005CF9B4 /* Main.storyboard */; };
 		B2227E151D4D779F005CF9B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2227E141D4D779F005CF9B4 /* Assets.xcassets */; };
 		B2227E181D4D779F005CF9B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2227E161D4D779F005CF9B4 /* LaunchScreen.storyboard */; };
+		B2227E251D4D7AED005CF9B4 /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2227E201D4D7AED005CF9B4 /* bomb.mp3 */; };
+		B2227E261D4D7AED005CF9B4 /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2227E211D4D7AED005CF9B4 /* drop.mp3 */; };
+		B2227E271D4D7AED005CF9B4 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2227E221D4D7AED005CF9B4 /* gameover.mp3 */; };
+		B2227E281D4D7AED005CF9B4 /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2227E231D4D7AED005CF9B4 /* levelup.mp3 */; };
+		B2227E291D4D7AED005CF9B4 /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2227E241D4D7AED005CF9B4 /* theme.mp3 */; };
+		B2227E2B1D4D7AFA005CF9B4 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B2227E2A1D4D7AFA005CF9B4 /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		B2227E141D4D779F005CF9B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2227E171D4D779F005CF9B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2227E191D4D779F005CF9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2227E201D4D7AED005CF9B4 /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
+		B2227E211D4D7AED005CF9B4 /* drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drop.mp3; sourceTree = "<group>"; };
+		B2227E221D4D7AED005CF9B4 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		B2227E231D4D7AED005CF9B4 /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelup.mp3; sourceTree = "<group>"; };
+		B2227E241D4D7AED005CF9B4 /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
+		B2227E2A1D4D7AFA005CF9B4 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +74,23 @@
 				B2227E111D4D779F005CF9B4 /* Main.storyboard */,
 				B2227E141D4D779F005CF9B4 /* Assets.xcassets */,
 				B2227E161D4D779F005CF9B4 /* LaunchScreen.storyboard */,
+				B2227E2A1D4D7AFA005CF9B4 /* Sprites.atlas */,
+				B2227E1F1D4D7AED005CF9B4 /* Sounds */,
 				B2227E191D4D779F005CF9B4 /* Info.plist */,
 			);
 			path = Swiftris;
+			sourceTree = "<group>";
+		};
+		B2227E1F1D4D7AED005CF9B4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B2227E201D4D7AED005CF9B4 /* bomb.mp3 */,
+				B2227E211D4D7AED005CF9B4 /* drop.mp3 */,
+				B2227E221D4D7AED005CF9B4 /* gameover.mp3 */,
+				B2227E231D4D7AED005CF9B4 /* levelup.mp3 */,
+				B2227E241D4D7AED005CF9B4 /* theme.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +152,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2227E181D4D779F005CF9B4 /* LaunchScreen.storyboard in Resources */,
+				B2227E261D4D7AED005CF9B4 /* drop.mp3 in Resources */,
+				B2227E291D4D7AED005CF9B4 /* theme.mp3 in Resources */,
+				B2227E271D4D7AED005CF9B4 /* gameover.mp3 in Resources */,
 				B2227E151D4D779F005CF9B4 /* Assets.xcassets in Resources */,
+				B2227E281D4D7AED005CF9B4 /* levelup.mp3 in Resources */,
+				B2227E2B1D4D7AFA005CF9B4 /* Sprites.atlas in Resources */,
+				B2227E251D4D7AED005CF9B4 /* bomb.mp3 in Resources */,
 				B2227E131D4D779F005CF9B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
